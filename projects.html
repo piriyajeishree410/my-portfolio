@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Piriyajeishree Murali Naidu">
+    <meta name="description" content="Projects by Piriyajeishree Murali Naidu - DevOps Cloud Engineer">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>">
+    <title>Projects - Piriyajeishree Murali Naidu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="modele" src="js/about-me.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Piriyajeishree</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutme.html">About me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="projects-main">
+        <section class="projects-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <h1>My Projects</h1>
+                <p class="lead">A showcase of my technical projects and implementations</p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="project-filters mb-5">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                    <button class="filter-btn" data-filter="devops">DevOps</button>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/pet-adoption-placeholder.webp" alt="Pet Adoption Portal">
+                        </div>
+                        <div class="project-content">
+                            <h3>Pet Adoption Portal</h3>
+                            <p class="project-tech">Next.js 14, Node.js, MySQL 8.0, React 18, Tailwind CSS</p>
+                            <p class="project-description">Full-stack adoption platform with real-time filtering and adoption requests. Reduced search-to-action time by 40% with secure authentication and role-based access control.</p>
+                            <div class="project-features">
+                                <span>Real-time filtering</span>
+                                <span>Secure authentication</span>
+                                <span>Role-based access</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="images/sign-language-placeholder.jpg" alt="Sign Language to Text Conversion System">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sign Language to Text Conversion</h3>
+                            <p class="project-tech">OpenCV, MediaPipe, scikit-learn, TensorFlow</p>
+                            <p class="project-description">Real-time gesture recognition system with 99% accuracy for static gestures and dynamic word detection. Trained Random Forest classifier and LSTM model for accessibility applications.</p>
+                            <div class="project-features">
+                                <span>Real-time recognition</span>
+                                <span>99% accuracy</span>
+                                <span>Accessibility focused</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="devops">
+                        <div class="project-image">
+                            <img src="images/cicd-placeholder.jpg" alt="CI/CD Platform">
+                        </div>
+                        <div class="project-content">
+                            <h3>OnePipeline CI/CD Platform</h3>
+                            <p class="project-tech">Git, Jenkins, AWS (EC2, S3, Lambda, ECS, Fargate)</p>
+                            <p class="project-description">Developed and supported CapitalOne's CI/CD platform, improving deployment speed by 30% and release stability by 25%. Automated deployments with AWS services.</p>
+                            <div class="project-features">
+                                <span>30% faster deployments</span>
+                                <span>25% improved stability</span>
+                                <span>AWS automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Piriyajeishree Murali Naidu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/projects.js"></script>
+</body>
+</html>
