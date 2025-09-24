@@ -14,7 +14,7 @@ Create a professional, responsive portfolio website showcasing my expertise as a
 ![Portfolio Website Screenshot](https://github.com/piriyajeishree410/my-portfolio/blob/main/images/Screenshot%20(202).png)
 
 ## Google Slides:
-![Slides URL](https://docs.google.com/presentation/d/1Z-ainKYdFThUkm4vJgilpA67-F8k-RZSl2pW9xn-n00/edit?slide=id.g382705f5745_0_3#slide=id.g382705f5745_0_3)
+[Slides URL](https://docs.google.com/presentation/d/12NBSzUxM6Vz7atRAOQl87rGqvU5zJZut9bdrJkDf1Uc/edit?slide=id.p#slide=id.p)
 
 ## Features
 
