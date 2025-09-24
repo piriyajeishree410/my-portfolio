@@ -41,6 +41,7 @@ Create a professional, responsive portfolio website showcasing my expertise as a
 2. **Hobby Carousel** - Auto-rotating personal interests display
 3. **Project Filtering** - Dynamic category-based project organization
 4. **Flip Cards** - Interactive fun facts on About Me page
+5. **Mouse-Trail** - Added a playful mouse trail effect that follows the cursor for an interactive touch.
 
 ## Project Structure
 ```
@@ -95,6 +96,7 @@ portfolio-website/
 - **Hobby Carousel** (40+ lines): Auto-rotating carousel with touch support
 - **Project Filtering System** (25+ lines): Dynamic category-based filtering
 - **Flip Card Interactions** (20+ lines): Touch and hover animations
+- **Mouse-Trail**(25+ lines): Mouse trail effect that follows the cursor for an interactive touch
 
 ### Code Quality Standards
 - **Prettier Formatted:** Consistent code styling throughout
@@ -124,7 +126,7 @@ portfolio-website/
 - Professional introduction with hero section
 - Skills visualization with animated progress bars
 - Work experience timeline
-- Personal inrterests carousel
+- Personal interests carousel
 - Contact information
 
 ### Projects Page (`projects.html`)
@@ -141,7 +143,7 @@ portfolio-website/
 - Closing philosophy statement
 
 #### Prompt given to generate the page was:
-I have created a portfolio site showcasing my technical skills. I wanted to create another page that will be linked to my homepage with your help. My site has an index page which includes sections like hero, skills, experience, and hobbies. The navigation bar at the top has a reference to go to my projects page. The projects page has a list of my projects, which can also be filtered. With the wireframe given to you, can you help me create a new page with the same styling? Provide a few ideas that can be integrated.
+I have created a portfolio site showcasing my technical skills. I wanted to create another page that will be linked to my homepage with your help. My site has an index page that includes sections like hero, skills, experience, and hobbies. The navigation bar at the top has a reference to go to my projects page. The projects page has a list of my projects, which can also be filtered. With the wireframe given to you, can you help me create a new page with the same styling? Provide a few ideas that can be integrated.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
