@@ -1,4 +1,4 @@
-# Professional Design Document: Piriyajeishree Murali Naidu - Personal Portfolio Website
+# Personal Portfolio Website
 
 ## 1. Project Overview
 
@@ -307,4 +307,5 @@ root/
 ### Backup Strategy
 - Version control via Git
 - Regular backups of content and assets
+
 - Documentation of custom components
