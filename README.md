@@ -11,7 +11,7 @@ CS5610 - Web Development
 Create a professional, responsive portfolio website showcasing my expertise as a DevOps Cloud Engineer while maintaining a personal touch. The site demonstrates technical skills, project experience, and personal interests through a clean, accessible design inspired by modern portfolio aesthetics.
 
 ## Screenshot
-![Portfolio Website Screenshot](images/Screenshot (202).png)
+![Portfolio Website Screenshot](https://github.com/piriyajeishree410/my-portfolio/blob/main/images/Screenshot%20(202).png)
 
 ## Google Slides:
 ![Slides URL](https://docs.google.com/presentation/d/1Z-ainKYdFThUkm4vJgilpA67-F8k-RZSl2pW9xn-n00/edit?slide=id.g382705f5745_0_3#slide=id.g382705f5745_0_3)
