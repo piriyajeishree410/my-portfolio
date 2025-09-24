@@ -13,6 +13,9 @@ Create a professional, responsive portfolio website showcasing my expertise as a
 ## Screenshot
 ![Portfolio Website Screenshot](images/screenshot.png)
 
+## Google Slides:
+![Slides URL](https://docs.google.com/presentation/d/1Z-ainKYdFThUkm4vJgilpA67-F8k-RZSl2pW9xn-n00/edit?slide=id.g382705f5745_0_3#slide=id.g382705f5745_0_3)
+
 ## Features
 
 ### 🎯 Core Functionality
