@@ -150,9 +150,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Implementation Areas
 #### 1. Design Enhancement
-**Prompt:** "Improve the color scheme for better contrast and create dark card backgrounds for technical sections."
+**Prompt:** "Help me improve the color scheme for better contrast."
 
-**Usage:** Refined color palette and implemented dark mode card designs.
+**Usage:** Refined color palette.
 
 #### 4. Content Organization for the last AI-generated page
 **Prompt:** "Structure the About Me page with core values, flip cards for fun facts, and a hobbies gallery."
