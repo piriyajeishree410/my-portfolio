@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Nice!: responsive viewport is set -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Piriyajeishree Murali Naidu">
     <meta name="description" content="DevOps Cloud Engineer with expertise in AWS, CI/CD, and full-stack development">
+    <!-- Suggestion: add a favicon and (optionally) theme-color for nicer browser UI.
+         <link rel="icon" href="images/favicon.png" type="image/png">
+         <meta name="theme-color" content="#ffffff">
+    -->
     <title>Piriyajeishree Murali Naidu - DevOps Cloud Engineer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Performance note: Loading many modules in <head> blocks initial rendering.
+         Consider moving scripts to just before </body> to reduce render-blocking.
+         Also, only load scripts needed for THIS page (home.js likely; projects/about-me can be loaded on their pages). -->
     <script type="module" src="js/home.js"></script>
     <script type="module" src="js/main.js"></script>
     <script type="module" src="js/projects.js"></script>
@@ -154,7 +162,7 @@
             </div>
         </section>
     </main>
-
+    <!-- Nice clean footer! Optional: add small links if needed -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Piriyajeishree Murali Naidu. All rights reserved.</p>
@@ -162,6 +170,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Note: home.js is included both in <head> and here, avoid double-loading the same module.
+         Also, to reduce JS on this page, consider omitting main.js, projects.js, and about-me.js here and only load what's needed.
+    -->
     <script type="module" src="js/home.js"></script>
 </body>
 
