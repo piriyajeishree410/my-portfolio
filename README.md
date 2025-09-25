@@ -6,6 +6,7 @@ Master of Science in Computer Science, Northeastern University
 
 ## Class Link
 CS5610 - Web Development
+- Add the live demo link near the top :)
 
 ## Project Objective
 Create a professional, responsive portfolio website showcasing my expertise as a DevOps Cloud Engineer while maintaining a personal touch. The site demonstrates technical skills, project experience, and personal interests through a clean, accessible design inspired by modern portfolio aesthetics.
@@ -47,7 +48,7 @@ Create a professional, responsive portfolio website showcasing my expertise as a
 ```
 portfolio-website/
 ├── index.html
-├── aboutme.html
+├── aboutme.html filename mismatch 
 ├── projects.html
 ├── package.json
 ├── LICENSE
@@ -135,7 +136,7 @@ portfolio-website/
 - Technology stack highlights
 - Quantitative results presentation
 
-### About Me Page (`about-me.html`) - AI Generated Page
+### About Me Page (`about-me.html`) - AI Generated Page ** Filename mismatch, we have a reference to aboutme.html in the project tree but we have about-me.html here
 - Core values presentation
 - Interactive flip cards for fun facts
 - Hobbies showcase gallery
