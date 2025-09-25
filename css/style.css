@@ -59,6 +59,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    /* Consider adding background-color as a placeholder color while image loads. */
+
 }
 
 .hero::before {
@@ -163,6 +165,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 1.5rem;
+    /* Nice responsive grid. */
 }
 
 .skill-category h4 {
@@ -221,6 +224,8 @@ section {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     color: #e2e8f0
+    /* Missing semicolon after color; CSS will likely still parse but add for safety. */
+
 }
 
 .timeline-content h3 {
@@ -695,4 +700,5 @@ section {
         margin-right: 0;
         margin-bottom: 1rem;
     }
+
 }
