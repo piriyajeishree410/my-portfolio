@@ -1,5 +1,8 @@
 // Projects page specific functionality
 import '../js/main.js';
+// Importing main.js for shared behaviors is fine, but be mindful of side effects.
+// If main.js attaches global listeners, importing it here means they’ll run on this page too.
+// Consider exporting explicit init functions from main.js and calling them here for clarity/testability.
 
 document.addEventListener('DOMContentLoaded', function() {
     // Project filtering functionality
@@ -116,4 +119,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+
 });
