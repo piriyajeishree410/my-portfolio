@@ -4,8 +4,11 @@
 **Piriyajeishree Murali Naidu**  
 Master of Science in Computer Science, Northeastern University
 
-## Class Link
+## Course
 CS5610 - Web Development
+
+## Deployment link
+My site is live at https://piriyajeishree410.github.io/my-portfolio/
 
 ## Project Objective
 Create a professional, responsive portfolio website showcasing my expertise as a DevOps Cloud Engineer while maintaining a personal touch. The site demonstrates technical skills, project experience, and personal interests through a clean, accessible design inspired by modern portfolio aesthetics.
